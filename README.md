@@ -7,7 +7,7 @@
 ## 贡献者统计
 
 本项目同时在 GitHub 和 Gitee 上接受 PR。
-下面的图标点击后可以查看 git 软件统计的各个贡献者的贡献量。
+可以在 GitHub 的 Insights - [Contributors](https://github.com/wangliang1989/cavendish/graphs/contributors) 或者 gitee 的[统计](https://gitee.com/wangliang1989/cavendish/repository/stats/main)中查看各个贡献者的贡献量。
 
 [![](https://img.shields.io/github/contributors/wangliang1989/cavendish)](https://github.com/wangliang1989/cavendish/graphs/contributors)
 
