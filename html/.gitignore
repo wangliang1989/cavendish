@@ -1,3 +1,0 @@
-# Ignore all HTML files except mathjax_template.html
-*.html
-!mathjax_template.html
