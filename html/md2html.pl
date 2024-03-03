@@ -14,7 +14,7 @@ foreach (glob "../*.md") {
     print OUT "## $name\n";
     open (IN, "< $_") or die;
     foreach (<IN>) {
-        if ($_ =~ '数据记录与计算') {
+        if ($_ =~ '数据记录与计算') {# 文件必须包含字符串：数据记录与计算
             $i = 1;
             next;
         }
@@ -22,6 +22,7 @@ foreach (glob "../*.md") {
     }
     close(IN);
     close(OUT);
+    print "$name\n" if $i == 1;
     system "pandoc junk.md -o $name.html $parameter --metadata title=\"$name\"" if $i == 1;
 }
 unlink 'junk.md';
